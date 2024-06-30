@@ -1,0 +1,30 @@
+body {
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.taskarray {
+    margin-top: 20px;
+}
+.taskarray li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.taskarray li:last-child {
+    border-bottom: none;
+}
+.taskarray input[type="checkbox"] {
+    margin-right: 10px;
+}
+.taskarray button {
+    margin-left: auto;
+}
